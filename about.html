@@ -17,6 +17,7 @@
   <meta name="theme-color" content="#000000">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dynamic.css">
 </head>
 <body class="backgroundAbout">
 <header>
@@ -51,8 +52,10 @@
 
     <div class="presentation">
 
-      <h1 class = "DWWM">I AM A STUDENT DEVELOPER</h1>
-
+      <div class = "presentationContent">
+        <h1 class = "DWWM">I AM A STUDENT DEVELOPER </h1>
+      </div>
+  
       <label for="abouthtml" class="form-label mt-4">.html</label>
       <select multiple="" class="form-select aboutClass" id="abouthtml">
         <option>1 &lt;me class="Focus on writing Clean-Elegant-And-Efficient Code" id="Sensible to Front- and</option>
@@ -70,17 +73,17 @@
     </div>
 
     <div class="dispoProgressBar">
-      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped bg-success styleAlgorithmic">Algorithmics</div>
+      <div class="progress progress-bar-move-styleAlgorithmic" role="progressbar" aria-label="Success striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animate styleAlgorithmic">Algorithmics</div>
       </div><br>
-      <div class="progress" role="progressbar" aria-label="Dangerg striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped bg-danger styleHtml">HTML5</div>
+      <div class="progress progress-bar-move-styleHtml" role="progressbar" aria-label="Danger striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animate styleHtml">HTML5</div>
       </div><br>
-      <div class="progress" role="progressbar" aria-label="Primary striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped bg-primary styleCssScssSass">CSS3 / SCSS / SASS</div>
+      <div class="progress progress-bar-move-styleCssScssSass" role="progressbar" aria-label="Primary striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-primary progress-bar-animate styleCssScssSass">CSS3 / SCSS / SASS</div>
       </div><br>
-      <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped bg-warning styleJavascript">JAVASCRIPT</div>
+      <div class="progress progress-bar-move-styleJavascript" role="progressbar" aria-label="Warning striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animate styleJavascript">JAVASCRIPT</div>
       </div>
     </div>
     
@@ -88,5 +91,6 @@
   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/dynamic.js"></script>
 </body>
 </html>
