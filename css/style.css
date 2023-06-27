@@ -486,7 +486,7 @@ ul li:hover {
     background: rgba(13, 110, 253, 0.25);
     border-radius: 40px;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: -10px 10px 50px 0px rgb(13, 110, 253);
 }
 
@@ -495,7 +495,7 @@ ul li:hover {
     background: rgba(220, 53, 69, 0.25);
     border-radius: 40px;
     backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(3px);
     box-shadow: -10px 10px 50px -5px rgb(220, 53, 69);
 }
 
@@ -504,7 +504,7 @@ ul li:hover {
     background: rgba(255, 193, 7, 0.25);
     border-radius: 40px;
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(2px);
     box-shadow: -10px 10px 50px -10px hwb(45 3% 0%);
 }
 
