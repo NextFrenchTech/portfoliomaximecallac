@@ -583,7 +583,7 @@ ul li:hover {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 10% 0 1% 0;
+    padding-top: 10%;
 }
 
 :any-link {

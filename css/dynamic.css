@@ -1,165 +1,170 @@
 /*type script*/
 
 .presentationContent {
-    margin: auto;
+  margin: auto;
 }
 
 .DWWM {
-    margin: 70px 0 0 0;
-    overflow: hidden;
-    position: relative;
-    color: aliceblue;
-  }
-    .DWWM::after {
-    content: "FULLSTACK!";
-    display: inline-block;
-    animation: animate 5.5s steps(9);
-    color: aliceblue;
-  }
-    .DWWM::before {
-    display: inline-block;
-    content: "";
-    width: 2px;
-    height: 100%;
-    background-color: aliceblue;
-    position: absolute;
-    right: 0;
-    animation: blinking .4s linear alternate;
-  }
+  margin: 70px 0 0 0;
+  overflow: hidden;
+  position: relative;
+  color: aliceblue;
+}
+
+.DWWM::after {
+  content: "FULLSTACK!";
+  display: inline-block;
+  animation: animate 5.5s steps(9);
+  color: aliceblue;
+}
+
+.DWWM::before {
+  display: inline-block;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: aliceblue;
+  position: absolute;
+  right: 0;
+  animation: blinking .4s linear alternate;
+}
 
 @keyframes animate {
-    0% {
-        content: "front";
-        width: 0ch;
-    }
-    20% {
-        content: "front";
-        width: 6ch;
-    }
-    40% {
-        width: 0ch;
-    }
-    60% {
-        content: "back";
-        width: 5ch;
-    }
-    80% {
-        width: 0ch;
-    }
-    100% {
-        content: "FULLSTACK!";
-        width: 11ch;
-    }
+  0% {
+    content: "front";
+    width: 0ch;
+  }
+  20% {
+    content: "front";
+    width: 6ch;
+  }
+  40% {
+    width: 0ch;
+  }
+  60% {
+    content: "back";
+    width: 5ch;
+  }
+  80% {
+    width: 0ch;
+  }
+  100% {
+    content: "FULLSTACK!";
+    width: 11ch;
+  }
 }
 
 @keyframes blinking {
-    100%{
-     opacity: 0;
-    }
+  100%{
+    opacity: 0;
+  }
 }
 
 .progress-bar-move-styleAlgorithmic {
-    animation: progress-bar-move-styleAlgorithmic 2.5s ease-out 0s;
-    animation-fill-mode: forwards;
-    width: 0%;
-  }
+  animation: progress-bar-move-styleAlgorithmic 2.5s ease-out 0s;
+  animation-fill-mode: forwards;
+  width: 0%;
+}
   
-  .progress-bar-move-styleHtml {
-    animation: progress-bar-move-styleHtml 2.5s ease-out 1.5s;
-    animation-fill-mode: forwards;
-    width: 0%;
-  }
-  
-  .progress-bar-move-styleCssScssSass {
-    animation: progress-bar-move-styleCssScssSass 2.5s ease-out 2.5s;
-    animation-fill-mode: forwards;
-    width: 0%;
-  }
+.progress-bar-move-styleHtml {
+  animation: progress-bar-move-styleHtml 2.5s ease-out 1.5s;
+  animation-fill-mode: forwards;
+  width: 0%;
+}
 
-  .progress-bar-move-styleJavascript {
-    animation: progress-bar-move-styleJavascript 2.5s ease-out 3.5s;
-    animation-fill-mode: forwards;
+.progress-bar-move-styleCssScssSass {
+  animation: progress-bar-move-styleCssScssSass 2.5s ease-out 2.5s;
+  animation-fill-mode: forwards;
+  width: 0%;
+}
+
+.progress-bar-move-styleJavascript {
+  animation: progress-bar-move-styleJavascript 2.5s ease-out 3.5s;
+  animation-fill-mode: forwards;
+  width: 0%;
+}
+
+@keyframes progress-bar-move-styleAlgorithmic {
+  0% {
     width: 0%;
   }
-  
-  @keyframes progress-bar-move-styleAlgorithmic {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 100%;
-    }
+  100% {
+    width: 100%;
   }
+}
 
-  @keyframes progress-bar-move-styleHtml {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 75%;
-    }
+@keyframes progress-bar-move-styleHtml {
+  0% {
+    width: 0%;
   }
-  @keyframes progress-bar-move-styleCssScssSass {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 75%;
-    }
+  100% {
+    width: 75%;
   }
-  @keyframes progress-bar-move-styleJavascript {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 25%;
-    }
+}
+
+@keyframes progress-bar-move-styleCssScssSass {
+  0% {
+    width: 0%;
   }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-bar-move-styleJavascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
 
 .progress-bar-animate {
-    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-    background-size: 2rem 2rem;
-    -webkit-animation: progress-bar-animate 1s linear infinite;
-    animation: progress-bar-animate 1s linear infinite;
+  background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size: 2rem 2rem;
+  -webkit-animation: progress-bar-animate 1s linear infinite;
+  animation: progress-bar-animate 1s linear infinite;
 }
 
 @-webkit-keyframes progress-bar-animate {
 	from {
-        background-position:0 0
+    background-position: 0 0;
 	}
-	
 	to {
-	   background-position:2rem 0
+	  background-position: 2rem 0;
 	}
 }
 
 @keyframes progress-bar-animate {
 	from{
-        background-position:0 0
+    background-position: 0 0;
 	}
-	
+
 	to{ 
-	  background-position:2rem 0
+	  background-position: 2rem 0;
 	}
 }                          
 
 @media (max-width: 900px) {
-    .DWWM::after,
-    .DWWM::before {
-        display: none;
-    }
+  .DWWM::after, .DWWM::before {
+    display: none;
+  }
 }
 
 /*vapor text*/
 
 .vaporText {
-  display: flex;
+  padding-top: 5%;
+  overflow: hidden;
+  font: 1.75rem sans-serif;
+  font-weight: bolder;
+  color: transparent;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .vapor, .vaporStart, .vaporEnd {
-  color: white;
-  font-size: 1rem;
-  font-weight: bolder;
   display:inline-block;
   text-shadow: 0 0 0 whitesmoke;
   -webkit-animation: smoky 5s 5.5s both;
@@ -167,7 +172,7 @@
 }
 
 .vaporStart {
-  margin-left: 75%;
+  margin-left: 55%;
 }
 
 .vaporEnd {
@@ -344,57 +349,17 @@
 }
 
 @media (max-width: 900px) {
+  .vaporText {
+    padding-top: 1%;
+  }
   .vapor, .vaporStart, .vaporEnd {
-    font-size: 0.5rem;
+    font-size: 0.50rem;
     font-weight:bold;
   }
-
   .vaporStart {
-    margin-left: 50%;
+    margin-left: 10%;
   }
-  
   .vaporEnd {
     margin-right: auto;
   }
-  
-
-  @-webkit-keyframes smoky {
-    60% {
-      text-shadow: 0 0 40px whitesmoke;
-    }
-    to {
-      text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }
-  
-  @keyframes smoky {
-    60% {
-      text-shadow: 0 0 40px whitesmoke;
-    }
-    to {
-      text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }
-  
-  @-webkit-keyframes smoky-mirror {
-    60% {
-      text-shadow: 0 0 40px whitesmoke;
-    }
-    to {
-      text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }
-  
-  @keyframes smoky-mirror {
-    60% {
-      text-shadow: 0 0 40px whitesmoke;
-    }
-    to {
-      text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }  
 }
