@@ -44,3 +44,57 @@ window.addEventListener("blur", () => {
 window.addEventListener("blur", function() {
     this.document.title = "OH, No Way... Come Back HERE !"; 
 });*/
+
+/*automatic url toogle*/
+
+let Emoji= [
+    "🤗",
+    "😱",
+    "🤔",
+    "😵",
+    "😯",
+    "😮",
+    "😲",
+    "😬",
+    "🤨",
+    "😐",
+    "🙂",
+    "😉",
+    "😁",
+    "😊",
+    "😳",
+    "😀",
+    "😃",
+    "😆",
+    "😄",
+    "😅",
+    "😂",
+    "🤣",
+    "🤭",
+    "🤓",
+    "🤩",
+    "🤩",
+    "🤩",
+];
+
+let urlAnimate= ()=> {
+    window.location.hash= Emoji[Math.floor((Date.now() / 500) % Emoji.length)];
+    setTimeout(urlAnimate, 70);
+};
+
+urlAnimate();
+
+/*overlapping chars with shadow*/
+
+const overlapEls = document.querySelectorAll(".overlap") || [];
+overlapEls.forEach(el => {
+  const chars = [...el.textContent];
+  el.innerHTML = "";
+  chars.forEach((char,index) => {
+    const span = document.createElement("span");
+    span.textContent = char;
+    span.style.setProperty("--index", index)
+    el.append(span)
+  })
+})
+  
