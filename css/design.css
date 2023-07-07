@@ -176,7 +176,7 @@ svg {
 }
 
 .bodydrop {
-	background: hsl(260 calc(var(--active) * 97%)6%);
+	background: hsl(260 calc(var(--active) 97%)6%);
 	position: fixed;
 	inset: 0;
 	z-index: -1
@@ -198,7 +198,7 @@ svg {
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
-	-webkit-mask: radial-gradient(white, transparent 65%);
+	-webkit-mask: radial-gradient(white/*, transparent 100%*/);
 	z-index: -1;
 	opacity: var(--active, 0);
 	transition: opacity var(--transition);
