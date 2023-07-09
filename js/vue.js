@@ -3,4 +3,4 @@ var app = new Vue({
     data: {
         user: "",
     }
-})
+});

@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
-$("#buttonSecure").on("click", function() {
+    $("#buttonSecure").on("click", function() {
         $("#buttonSecure").toggleClass("secure");
-        $("#goodNavigation").toggleClass("secure")
+        $("#goodNavigation").toggleClass("secure");
     });
         
     $("#buttonGenius").on("click", function() {
@@ -18,7 +18,7 @@ $("#buttonSecure").on("click", function() {
     $("#buttonErgonomic").on("click", function() {
         $("#helloWorld").toggleClass("goldHi");
         $("#helloUser").toggleClass("goldHi");
-        $("#ideeCreative").toggleClass("litBulb")
+        $("#ideeCreative").toggleClass("litBulb");
     });
 
     $("#buttonLoginUser").on("click", function() {
@@ -27,7 +27,6 @@ $("#buttonSecure").on("click", function() {
 
         $("#helloUser").show();
         $("#helloUserMirror").show();
-
     });    
 
     $("#lienCodeSourceHtml").on("click", function() {

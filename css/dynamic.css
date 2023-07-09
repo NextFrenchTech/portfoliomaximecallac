@@ -60,6 +60,9 @@
   }
 }
 
+
+/*progress bar*/
+
 .progress-bar-move-styleAlgorithmic {
   animation: progress-bar-move-styleAlgorithmic 2.5s ease-out 0s;
   animation-fill-mode: forwards;
@@ -140,7 +143,6 @@
 	from{
     background-position: 0 0;
 	}
-
 	to{ 
 	  background-position: 2rem 0;
 	}
