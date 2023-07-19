@@ -593,3 +593,11 @@ ul li:hover {
 a:hover {
     color: blue;
 }
+
+.deadline {
+    color: black;
+}
+
+.deadline:hover {
+    color: black;
+}

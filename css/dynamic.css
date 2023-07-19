@@ -26,7 +26,8 @@
   background-color: aliceblue;
   position: absolute;
   right: 0;
-  animation: blinking .4s linear alternate;
+  border-right: 0ch solid;
+  animation: blinking 1s linear infinite;
 }
 
 @keyframes animate {
@@ -55,8 +56,11 @@
 }
 
 @keyframes blinking {
-  100%{
+  from, 25% {
     opacity: 0;
+  }
+  50%, to {
+    opacity: 1;
   }
 }
 
