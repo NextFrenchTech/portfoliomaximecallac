@@ -26,6 +26,29 @@ h1 {
     font-size: smaller;
 }
 
+.bi-pdf {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.bi-file-earmark-pdf {
+    width: 16px; 
+    height: 16px;
+    color: red;
+}
+
+.bi-award {
+    display: flex;
+    align-items: center;
+}
+
+.bi-award-fill {
+    width: 16px; 
+    height: 16px;
+    color: goldenrod
+}
+
 .bi-contact {
     display: flex;
     flex-direction: column;
@@ -52,19 +75,6 @@ h1 {
     padding: 5px;
     font-size: larger;
     color: white;
-}
-
-.bi-pdf {
-    display: flex;
-    align-items: center;
-    font-size: larger;
-    margin-right: 10px;
-}
-
-.bi-file-earmark-pdf {
-    width: 16px; 
-    height: 16px;
-    color: red;
 }
 
 .bi-mail-at-fill, .bi-natel-fill, .bi-geo-alt-fill, .bi-linkedin-icon {
@@ -444,7 +454,6 @@ ul li:hover {
     background-color: black;
     color: white;
     border-color: white;
-
 }
 
 @media (max-width: 900px) {
