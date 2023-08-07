@@ -145,7 +145,7 @@ ul li:hover {
 .mask-red {
     left: 0;
     width: 0;
-    color: #BE002A;
+    color: red;
     animation: text-red 20s ease infinite;
     z-index: 2;
     background: #000;
