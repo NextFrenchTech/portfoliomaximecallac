@@ -486,7 +486,6 @@ ul li:hover {
 .aboutClass {
     background-color: #212529;
     color: aliceblue;
-
 }
 
 .dispoProgressBar {
@@ -507,6 +506,9 @@ ul li:hover {
 }
 
 @media (max-width: 900px) {
+    .backgroundAbout {
+        background-image: none;
+    }
     .dispoProgressBar {
         margin-top: 15px;
     }
@@ -572,12 +574,12 @@ ul li:hover {
 }
 
 @media (max-width: 900px) {
+    .backgroundPortfolio {
+        background-image: none;
+    }
     .cards {
         flex-direction: column; 
         align-items: center;
-    }
-    .backgroundPortfolio {
-        background-image: none;
     }
 }
 
