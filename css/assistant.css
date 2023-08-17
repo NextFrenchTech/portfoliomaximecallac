@@ -236,3 +236,9 @@ select::-ms-expand {
     color: #fff;
   }
 }
+
+@media (max-width: 900px) {
+  #wordoutput {
+    display: none;
+  }
+}
