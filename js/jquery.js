@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
         $("#helloUser").show();
         $("#helloUserMirror").show();
-    });    
+    });
 
     $("#lienCodeSourceHtml").on("click", function() {
         window.alert("In order to take full advantage of this EXPERIENCE, I invite you to browse my Portfolio and inspect the source codes of my pages! (Ctrl+U)");
