@@ -152,7 +152,7 @@
 	}
 }                          
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .DWWM::after, .DWWM::before {
     display: none;
   }
@@ -354,7 +354,7 @@
           animation-delay: 5.5s;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .vaporText {
     padding-top: 1%;
   }

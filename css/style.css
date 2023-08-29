@@ -315,7 +315,7 @@ ul li:hover {
     color: greenyellow;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .row {
      justify-content: center;
     } 
@@ -456,7 +456,7 @@ ul li:hover {
     border-color: white;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .cv {
         color: white;
         border: solid 1px;
@@ -505,7 +505,7 @@ ul li:hover {
     width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .backgroundAbout {
         background-image: none;
     }
@@ -574,7 +574,7 @@ ul li:hover {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .backgroundPortfolio {
         background-image: none;
     }
@@ -591,11 +591,23 @@ ul li:hover {
     background-image: url();
 }*/
 
+.qrCode {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vcardQrCodePost {
+    color: #fff;
+    width: 100px;
+    height: 125px;
+    margin: 1% 5%;
+}
+
 .contact {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 10%;
 }
 
 :any-link {
@@ -612,4 +624,12 @@ a:hover {
 
 .deadline:hover {
     color: black;
+}
+
+@media (max-width: 1024px) {
+    .vcardQrCodePost {
+        width: 10%;
+        height: 12.5%;
+        margin-bottom: 25%;
+    }
 }
