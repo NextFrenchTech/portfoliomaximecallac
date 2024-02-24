@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-h1,h3 {
+h1, h3 {
     font-weight: 600;
 }
 
@@ -90,6 +90,10 @@ h1,h3 {
 
 .card-title {
     font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
 }
 
 
@@ -398,8 +402,8 @@ ul li:hover {
 }*/
 
 .cvStyle {
-    min-width: 25rem;
-    margin: auto;
+    width: 50%;
+    margin: auto 2%;
     border-color: white;
 }
 
@@ -464,6 +468,12 @@ ul li:hover {
         margin: 10px;
         padding: 10px;
         border-radius: 50px;
+    }
+    .cvStyle {
+        width: 100%;
+    }
+    .card-title {
+        font-size: 1rem;
     }
 }
 
