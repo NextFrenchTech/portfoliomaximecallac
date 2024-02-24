@@ -64,7 +64,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
       <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
       <path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.712 5.712 0 0 1-.911-.95 11.651 11.651 0 0 0-1.997.406 11.307 11.307 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.266.266 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.71 12.71 0 0 1 1.01-.193 11.744 11.744 0 0 1-.51-.858 20.801 20.801 0 0 1-.5 1.05zm2.446.45c.15.163.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.876 3.876 0 0 0-.612-.053zM8.078 7.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"/>
-    </svg><a href="assets/cvMaximeCallac.pdf" download="telecharger">Download C.V .pdf</a>
+    </svg><a href="assets/cvPrintMaximeCallac.pdf" download="telecharger">Download C.V .pdf</a>
     </em>
   </div>
 
@@ -124,7 +124,8 @@
         <div class="tabNote">Framework</div>
         <div class="tabNote">Packages</div>
         <div class="tabNote">Library</div>
-        <div class="tabNote">Database</div>
+        <div class="tabNote">SQL</div>
+        <div class="tabNote">BDD</div>
       </div>
 
       <div class="systemNote">   
@@ -210,7 +211,15 @@
           <img src="assets/checkPuzzle.jpg" class="checkPuzzle" alt="icon puzzle">
         </div>
 
-        <div class="tabNote" id="database">
+        <div class="tabNote" id="sql">
+          <img src="assets/checkRedPuzzle.png" class="checkRedPuzzleFirst" alt="icon puzzle">
+          <img src="assets/checkRedPuzzle.png" class="checkRedPuzzle" alt="icon puzzle">
+          <img src="assets/checkPuzzle.jpg" class="checkPuzzle" alt="icon puzzle">
+          <img src="assets/checkPuzzle.jpg" class="checkPuzzle" alt="icon puzzle">
+          <img src="assets/checkPuzzle.jpg" class="checkPuzzle" alt="icon puzzle">
+        </div>
+
+        <div class="tabNote" id="bdd">
           <img src="assets/checkRedPuzzle.png" class="checkRedPuzzleFirst" alt="icon puzzle">
           <img src="assets/checkRedPuzzle.png" class="checkRedPuzzle" alt="icon puzzle">
           <img src="assets/checkPuzzle.jpg" class="checkPuzzle" alt="icon puzzle">
@@ -244,8 +253,6 @@
     
     <h1>FORMATION'S</h1><br>
 
-    <p>2023 (AFPA Digital Territory).<br>
-    Web and Mobile Web Developer</p>
     <p>2023 (SecNum<strong><em>academy</em></strong> ANSSI).<br>
     MOOC CyberSecurity
     <em class="bi bi-award">
@@ -271,6 +278,8 @@
 
     <h1>STUDY'S</h1><br>
 
+    <p>2023 (AFPA).<br>
+    Professional Title of Web and Mobile Web Developer.</p>
     <p>2019 (GRETA).<br>
     BP Arts of Service and Marketing in Catering.</p>
     <p>2019 (GRETA).<br>
@@ -368,45 +377,66 @@
     </div><br><br><br>
 
     <h1>REFERENCE'S</h1>
-
     <div class="cards">
       <div class="card text-white bg-black mb-3 cvStyle">
         <div class="card-header">
-        <h1>Mr.<br>David Grillon</h1>
+        <h3>Mr.David Grillon</h3>
         <em>(Professional trainer)</em>
         </div>
         <div class="card-body">
           <p class="card-title">AFPA Digital Territory</p>
-          <em class="card-text bi bi-natel">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-natel-fill" viewBox="0 0 16 16">
+          <!--<em class="card-text bi bi-natel" style="display:none;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg>+33 7 79 73 01 86
-          </em>
+            </svg><a href="tel:+33607311626">+33 6 07 31 16 26</a>
+          </em>-->
           <em class="card-text bi bi-mail">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-mail-at-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
               <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
               <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
-            </svg><a href="mailto:david.grillon@afpa.fr" target="_blank">david.grillon@afpa.fr</a>
+            </svg><a href="mailto:grillon.d@gmail.com" target="_blank">grillon.d@gmail.com</a>
+          </em>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card text-white bg-black mb-3 cvStyle">
+        <div class="card-header">
+        <h3>Mr.Stephane Gauthier</h3>
+        <em>(CEO)</em>
+        </div>
+        <div class="card-body">
+          <p class="card-title">Les Digivores</p>
+          <em class="card-text bi bi-natel">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg><a href="tel:+41794059735">+41 79 405 97 35</a>
+          </em>
+          <em class="card-text bi bi-mail">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+              <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+              <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+            </svg><a href="mailto:stephane@lesdigivores.ch" target="_blank">stephane@lesdigivores.ch</a>
           </em>
         </div>
       </div>
       <div class="card text-white bg-black mb-3 cvStyle">
         <div class="card-header">
-        <h1>Mrs.<br>Djamila Causse</h1>
-        <em>(Accompanying trainer)</em>
+        <h3>Mr.Kevin Utri</h3>
+        <em>(Developer)</em>
         </div>
         <div class="card-body">
-          <p class="card-title">AFPA Digital Territory</p>
+          <p class="card-title">Les Digivores</p>
           <em class="card-text bi bi-natel">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-natel-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg>+33 6 35 22 00 89
+            </svg><a href="tel:+33781597491">+33 7 81 59 74 91</a>
           </em>
           <em class="card-text bi bi-mail">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-mail-at-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
               <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
               <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
-            </svg><a href="mailto:djamila.causse@afpa.fr" target="_blank">djamila.causse@afpa.fr</a>
+            </svg><a href="mailto:kevin@lesdigivores.ch" target="_blank">kevin@lesdigivores.ch</a>
           </em>
         </div>
       </div>

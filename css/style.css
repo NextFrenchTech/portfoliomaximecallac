@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-h1 {
+h1,h3 {
     font-weight: 600;
 }
 
@@ -57,7 +57,7 @@ h1 {
     padding: 5%;
 }
 
-.bi-mail, .bi-linkedin {
+.bi-mail, .bi-linkedin-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +77,7 @@ h1 {
     color: white;
 }
 
-.bi-mail-at-fill, .bi-natel-fill, .bi-geo-alt-fill, .bi-linkedin-icon {
+.bi-envelope-at-fill, .bi-telephone-fill, .bi-geo-alt-fill, .bi-linkedin {
     width: 16px; 
     height: 16px;
 }
@@ -398,7 +398,7 @@ ul li:hover {
 }*/
 
 .cvStyle {
-    max-width: 25rem;
+    min-width: 25rem;
     margin: auto;
     border-color: white;
 }
@@ -489,7 +489,7 @@ ul li:hover {
 }
 
 .dispoProgressBar {
-    padding: 2% 10% 4% 10%;
+    padding: 3% 10%;
     font-weight: bolder;
     font-style: italic;
     margin: 0 8%;
@@ -597,10 +597,10 @@ ul li:hover {
     justify-content: flex-end;
 }
 
-.vcardQrCodePost {
+.vcfQrCodePost {
     color: #fff;
-    width: 100px;
-    height: 125px;
+    width: 90px;
+    height: 110px;
     margin: 1% 5%;
 }
 
@@ -627,7 +627,7 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-    .vcardQrCodePost {
+    .vcfQrCodePost {
         width: 15%;
         height: 15%;
         margin-bottom: 25%;
