@@ -469,11 +469,14 @@ ul li:hover {
         padding: 10px;
         border-radius: 50px;
     }
-    .cvStyle {
-        width: 100%;
-    }
     .card-title {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 512px) {
+    .cvStyle {
+        width: 100%;
     }
 }
 
