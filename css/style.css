@@ -92,6 +92,17 @@ h1, h3 {
     font-size: 1.5rem;
 }
 
+.card-headline {
+    font: 2em sans-serif;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font: 1.5em sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .card-text {
     font-size: 1rem;
 }
@@ -403,7 +414,8 @@ ul li:hover {
 
 .cvStyle {
     width: 50%;
-    margin: auto 2%;
+    max-width: 25rem;
+    margin: auto;
     border-color: white;
 }
 
@@ -441,6 +453,7 @@ ul li:hover {
     width: 25px;
     margin-left: 15px;
 }
+
 .checkRedPuzzle {
     width: 25px;
     margin-left: 0;
@@ -472,9 +485,6 @@ ul li:hover {
     .card-title {
         font-size: 1rem;
     }
-}
-
-@media (max-width: 512px) {
     .cvStyle {
         width: 100%;
     }
@@ -534,16 +544,6 @@ ul li:hover {
     background-image: url(../assets/backgroundPortfolio.png);
     min-height: 100vh;
     background-repeat: no-repeat;
-}
-
-.card-headline {
-    font: 2em sans-serif;
-    font-weight: bold;
-}
-
-.card-subtitle {
-    font: 1.5em sans-serif;
-    font-weight: bold;
 }
 
 .linky, .linkClick, .cliquezSurLeLien {
