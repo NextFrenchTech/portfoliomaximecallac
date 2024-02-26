@@ -412,8 +412,7 @@ ul li:hover {
 }*/
 
 .cvStyle {
-    max-width: 25rem;
-    width: 50%;
+    width: 24rem;
     margin: auto;
     border-color: white;
 }
@@ -484,6 +483,9 @@ ul li:hover {
     .card-title {
         font-size: 1rem;
     }
+}
+
+@media (max-width: 512px) {
     .cvStyle {
         width: 100%;
     }
