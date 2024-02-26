@@ -100,7 +100,6 @@ h1, h3 {
 .card-subtitle {
     font: 1.5em sans-serif;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .card-text {
@@ -413,8 +412,8 @@ ul li:hover {
 }*/
 
 .cvStyle {
-    width: 50%;
     max-width: 25rem;
+    width: 50%;
     margin: auto;
     border-color: white;
 }
